@@ -5,5 +5,5 @@
 #' @examples
 #' system2(get_pprof_path())
 get_pprof_path <- function() {
-  system.file("pprof", package = "pprof")
+  system.file("bin", "pprof", package = "pprof")
 }
