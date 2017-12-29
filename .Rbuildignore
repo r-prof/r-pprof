@@ -5,7 +5,9 @@
 ^\.travis\.yml$
 ^tic\.R$
 ^src/pprof$
+^src/go/src/github.com/google/pprof/internal/binutils/testdata$
 ^src/go/src/github.com/google/pprof/internal/driver/testdata$
+^src/go/src/github.com/google/pprof/internal/report/testdata$
 ^src/go/src/github.com/google/pprof/\.
 ^src/go/src/\.idea$
 ^_pkgdown\.yml$
