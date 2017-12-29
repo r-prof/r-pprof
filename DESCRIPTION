@@ -1,13 +1,14 @@
 Package: pprof
-Title: What the Package Does (one line, title case)
+Title: Installation Helper for the 'pprof' Tool
 Version: 0.0-0
 Authors@R: person("Kirill", "Müller", role = c("aut", "cre"), email = "krlmlr+r@mailbox.org")
-Description: What the package does (one paragraph).
-Depends: R (>= 3.4.3)
+Description: Contains sources and a build script for the 'pprof' tool by 'Google'.
+SystemRequirements: Go
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
 Date: 2017-12-29
-BugReports: https://github.com/krlmlr/pprof/issues
-URL: https://github.com/krlmlr/pprof, http://krlmlr.github.io/pprof
+BugReports: https://github.com/r-prof/r-pprof/issues
+URL: https://github.com/r-prof/r-pprof, http://r-prof.github.io/r-pprof
 Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.0.1
