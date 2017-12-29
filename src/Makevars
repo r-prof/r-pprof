@@ -1,0 +1,8 @@
+GOPATH = $(CURDIR)/go
+
+-include Makevars.local
+
+all: $(SHLIB) pprof
+
+pprof: $(GO_SRC)
+	GOPATH=$(GOPATH) go build github.com/google/pprof

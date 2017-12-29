@@ -1,4 +1,12 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
+^README\.Rmd$
+^README-.*\.png$
 ^\.travis\.yml$
 ^tic\.R$
+^src/pprof$
+^src/go/src/github.com/google/pprof/internal/driver/testdata$
+^src/go/src/github.com/google/pprof/\.
+^src/go/src/\.idea$
+^_pkgdown\.yml$
+^src/Makevars.local$
