@@ -1,6 +1,6 @@
 Package: pprof
 Title: Installation Helper for the 'pprof' Tool
-Version: 0.0-0
+Version: 0.0-1
 Authors@R: person("Kirill", "Müller", role = c("aut", "cre"), email = "krlmlr+r@mailbox.org")
 Description: Contains sources and a build script for the 'pprof' tool by 'Google'.
 SystemRequirements: Go
