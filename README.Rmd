@@ -1,0 +1,39 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+```
+
+# pprof
+
+This is Google's [pprof](https://github.com/google/pprof) tool for visualization and analysis of profiling data, wrapped as an R package. It exports a single function which returns the path to the executable file.
+
+The `pprof` binary can also be installed via `go get github.com/google/pprof`. However, some operating systems have an incompatible version of `pprof` on the `PATH` by default. This R package offers an easy-to-use robust alternative.
+
+## Installation
+
+You can install *pprof* from GitHub with:
+
+```{r gh-installation, eval = FALSE}
+# install.packages("devtools")
+devtools::install_github("r-prof/r-pprof")
+```
+
+## Example
+
+```{r example, message=TRUE}
+invisible(processx::run(
+  pprof::get_pprof_path(),
+  "-help",
+  echo = TRUE,
+  error_on_status = FALSE
+))
+```

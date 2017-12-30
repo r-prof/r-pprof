@@ -1,9 +1,14 @@
 Package: pprof
 Title: Installation Helper for the 'pprof' Tool
 Version: 0.0-1
-Authors@R: person("Kirill", "Müller", role = c("aut", "cre"), email = "krlmlr+r@mailbox.org")
+Authors@R: c(
+      person("Kirill", "Müller", role = c("aut", "cre"), email = "krlmlr+r@mailbox.org"),
+      person("Google, Inc.", role = "cph", comment = "Bundled pprof sources")
+    )
 Description: Contains sources and a build script for the 'pprof' tool by 'Google'.
 SystemRequirements: Go
+Suggests: 
+    processx
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
