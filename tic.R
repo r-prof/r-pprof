@@ -11,5 +11,5 @@ if (ci()$get_branch() == "master" && Sys.getenv("BUILD_PKGDOWN") != "" && Sys.ge
     add_step(step_build_pkgdown())
 
   get_stage("deploy") %>%
-    add_step(step_push_deploy(path = "docs", branch = "gh-pages"))
+    add_step(step_push_deploy(path = "docs", branch = "gh-pages", orphan = TRUE))
 }
