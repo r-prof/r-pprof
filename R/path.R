@@ -3,7 +3,7 @@
 #' It remains the caller's responsibility to run the process.
 #' @export
 #' @examples
-#' system2(get_pprof_path())
-get_pprof_path <- function() {
+#' system2(get_pprof_pkg_path())
+get_pprof_pkg_path <- function() {
   system.file("bin", "pprof", package = "pprof")
 }

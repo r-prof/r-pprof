@@ -9,8 +9,9 @@
 Contains sources and a build script for the 'pprof' tool by 'Google'.
 }
 \details{
-The \code{pprof} binary can also be installed via \code{go get github.com/google/pprof},
-but the package may be easier to install.
+The \code{pprof} binary can also be installed via \code{go get github.com/google/pprof}.
+However, some operating systems have an incompatible version of \code{pprof} on
+the \code{PATH}. The R package offers an easy-to-use robust alternative.
 }
 \seealso{
 Useful links:
@@ -23,5 +24,10 @@ Useful links:
 }
 \author{
 \strong{Maintainer}: Kirill Müller \email{krlmlr+r@mailbox.org}
+
+Other contributors:
+\itemize{
+  \item Google, Inc. (Bundled pprof sources) [copyright holder]
+}
 
 }
