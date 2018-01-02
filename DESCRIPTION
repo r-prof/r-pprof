@@ -15,5 +15,5 @@ LazyData: true
 Date: 2017-12-29
 BugReports: https://github.com/r-prof/r-pprof/issues
 URL: https://github.com/r-prof/r-pprof, http://r-prof.github.io/r-pprof
-Roxygen: list(markdown = TRUE)
+Roxygen: list(markdown = TRUE, roclets = c("rd", "namespace", "collate", "pkgapi::api_roclet"))
 RoxygenNote: 6.0.1

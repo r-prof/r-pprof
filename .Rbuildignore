@@ -13,3 +13,4 @@
 ^_pkgdown\.yml$
 ^src/Makevars.local$
 ^docs$
+^API$

@@ -1,0 +1,5 @@
+# API for pprof package
+
+## Exported functions
+
+get_pprof_pkg_path()
