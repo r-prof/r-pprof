@@ -16,7 +16,7 @@ knitr::opts_chunk$set(
 
 [![Travis build status](https://travis-ci.org/r-prof/pprof.svg?branch=master)](https://travis-ci.org/r-prof/pprof) [![Coverage status](https://codecov.io/gh/r-prof/pprof/branch/master/graph/badge.svg)](https://codecov.io/github/r-prof/pprof?branch=master) [![CRAN status](http://www.r-pkg.org/badges/version/pprof)](https://cran.r-project.org/package=pprof)
 
-This is Google's [pprof](https://github.com/google/pprof) tool for visualization and analysis of profiling data, wrapped as an R package. It exports a single function which returns the path to the executable file.
+This is the [pprof](https://github.com/google/pprof) tool for visualization and analysis of profiling data, wrapped as an R package. It exports a single function which returns the path to the executable file.
 
 The `pprof` binary can also be installed via `go get github.com/google/pprof`. However, some operating systems have an incompatible version of `pprof` on the `PATH` by default. This R package offers an easy-to-use robust alternative.
 
