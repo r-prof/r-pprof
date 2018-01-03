@@ -8,8 +8,8 @@ Authors@R: c(
       person("Google, Inc.", role = "cph", comment = "Bundled pprof sources")
     )
 Description: Contains sources and a build script for the 'pprof' tool by 'Google'.
-License: GPL-3
-URL: https://github.com/r-prof/r-pprof, http://r-prof.github.io/r-pprof
+License: Apache License (>= 2.0)
+URL: https://github.com/r-prof/r-pprof, https://r-prof.github.io/r-pprof
 BugReports: https://github.com/r-prof/r-pprof/issues
 Suggests:
     processx,
