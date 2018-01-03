@@ -14,7 +14,7 @@ knitr::opts_chunk$set(
 
 # pprof
 
-[![Travis build status](https://travis-ci.org/r-prof/pprof.svg?branch=master)](https://travis-ci.org/r-prof/pprof) [![Coverage status](https://codecov.io/gh/r-prof/pprof/branch/master/graph/badge.svg)](https://codecov.io/github/r-prof/pprof?branch=master) [![CRAN status](http://www.r-pkg.org/badges/version/pprof)](https://cran.r-project.org/package=pprof)
+[![Travis build status](https://travis-ci.org/r-prof/r-pprof.svg?branch=master)](https://travis-ci.org/r-prof/r-pprof) [![Coverage status](https://codecov.io/gh/r-prof/r-pprof/branch/master/graph/badge.svg)](https://codecov.io/github/r-prof/r-pprof?branch=master) [![CRAN status](http://www.r-pkg.org/badges/version/pprof)](https://cran.r-project.org/package=pprof)
 
 This is the [pprof](https://github.com/google/pprof) tool for visualization and analysis of profiling data, wrapped as an R package. It exports a single function which returns the path to the executable file.
 
