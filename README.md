@@ -5,6 +5,8 @@ pprof
 
 This is Google's [pprof](https://github.com/google/pprof) tool for visualization and analysis of profiling data, wrapped as an R package. It exports a single function which returns the path to the executable file.
 
+The `pprof` binary can also be installed via `go get github.com/google/pprof`. However, some operating systems have an incompatible version of `pprof` on the `PATH` by default. This R package offers an easy-to-use robust alternative.
+
 Installation
 ------------
 
@@ -20,7 +22,7 @@ Example
 
 ``` r
 invisible(processx::run(
-  pprof::get_pprof_path(),
+  pprof::get_pprof_pkg_path(),
   "-help",
   echo = TRUE,
   error_on_status = FALSE

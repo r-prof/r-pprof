@@ -31,7 +31,7 @@ devtools::install_github("r-prof/r-pprof")
 
 ```{r example, message=TRUE}
 invisible(processx::run(
-  pprof::get_pprof_path(),
+  pprof::get_pprof_pkg_path(),
   "-help",
   echo = TRUE,
   error_on_status = FALSE
