@@ -27,6 +27,7 @@ Useful links:
 
 Other contributors:
 \itemize{
+  \item R Consortium [funder]
   \item Google, Inc. (Bundled pprof sources) [copyright holder]
 }
 
