@@ -66,6 +66,7 @@
 <div class="page-header"><h1 class="hasAnchor">
 <a href="#pprof" class="anchor"></a>pprof</h1></div>
 
+<p>This is Google’s <a href="https://github.com/google/pprof">pprof</a> tool for visualization and analysis of profiling data, wrapped as an R package. It exports a single function which returns the path to the executable file.</p>
 <p>The <code>pprof</code> binary can also be installed via <code>go get github.com/google/pprof</code>. However, some operating systems have an incompatible version of <code>pprof</code> on the <code>PATH</code> by default. This R package offers an easy-to-use robust alternative.</p>
 <div id="installation" class="section level2">
 <h2 class="hasAnchor">
@@ -232,7 +233,9 @@ devtools::<span class="kw">install_github</span>(<span class="st">"r-prof/r-ppro
 </ul>
 <h2>Dev status</h2>
 <ul class="list-unstyled">
-<li><a href="https://github.com/google/pprof">pprof</a></li>
+<li><a href="https://travis-ci.org/r-prof/pprof"><img src="https://travis-ci.org/r-prof/pprof.svg?branch=master" alt="Travis build status"></a></li>
+<li><a href="https://codecov.io/github/r-prof/pprof?branch=master"><img src="https://codecov.io/gh/r-prof/pprof/branch/master/graph/badge.svg" alt="Coverage status"></a></li>
+<li><a href="https://cran.r-project.org/package=pprof"><img src="http://www.r-pkg.org/badges/version/pprof" alt="CRAN status"></a></li>
 </ul>
 </div>
 
