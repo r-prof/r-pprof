@@ -16,6 +16,12 @@ knitr::opts_chunk$set(
 
 [![Travis build status](https://travis-ci.org/r-prof/r-pprof.svg?branch=master)](https://travis-ci.org/r-prof/r-pprof) [![Coverage status](https://codecov.io/gh/r-prof/r-pprof/branch/master/graph/badge.svg)](https://codecov.io/github/r-prof/r-pprof?branch=master) [![CRAN status](http://www.r-pkg.org/badges/version/pprof)](https://cran.r-project.org/package=pprof)
 
+## Archived project
+
+This project has been archived, because CRAN doesn't seem to support Go on their infrastructure. The [(jointprof)](https://github.com/r-prof/jointprof) package contains a function that helps discovering the `pprof` utility which this project packages.
+
+## Introduction
+
 This is the [pprof](https://github.com/google/pprof) tool for visualization and analysis of profiling data, wrapped as an R package. It exports a single function which returns the path to the executable file.
 
 The `pprof` binary can also be installed via `go get github.com/google/pprof`. However, some operating systems have an incompatible version of `pprof` on the `PATH` by default. This R package offers an easy-to-use robust alternative.
